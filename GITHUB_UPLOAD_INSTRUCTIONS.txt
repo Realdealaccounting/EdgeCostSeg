@@ -1,0 +1,47 @@
+EDGE COST SEG WEBSITE — GITHUB UPLOAD STRUCTURE
+
+Upload the CONTENTS of this folder to your GitHub repository, not the folder itself.
+
+Your GitHub repo should look exactly like this at the top level:
+
+index.html
+about.html
+contact.html
+cost-segregation.html
+estimate.html
+faq.html
+industries.html
+process.html
+services.html
+styles.css
+script.js
+README.md
+.nojekyll
+assets/
+
+Inside assets/:
+explainer.html
+hero-illustration.svg
+logo.png
+logo-white.png
+team/
+
+Inside assets/team/:
+laurie.png
+mendel.png
+mitchell.png
+reuven.png
+sean.png
+shaul.png
+
+IMPORTANT:
+1. Do not put index.html inside an extra folder in GitHub.
+2. Keep the folder name exactly assets.
+3. Keep the team images inside assets/team.
+4. Do not rename files unless you also update the code.
+5. After uploading to GitHub/Vercel, the homepage should be index.html.
+6. Forms are already connected to Formspree:
+   - Contact form: https://formspree.io/f/xbdedrbw
+   - Estimate form: https://formspree.io/f/mzdqrjjo
+
+I checked the internal file paths. No missing local image/script/style/page links were found.
